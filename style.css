@@ -1,0 +1,147 @@
+/* general styling, and they apply to every pages of the website */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bodyColor: #c4c4c4;
+    --mainColor: #EDE5E5;
+    --boxColor: #FFFFFF;
+    --greenColor: #3D936A;
+    --redColor: #EA4957;
+}
+
+body {
+   background-color:  var(--bodyColor);
+}
+
+.main-section {
+    background-color: var(--mainColor);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    width: 1100px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.ad-left {
+    flex: 0.4;
+}
+
+#adcontainer {
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 530px;
+    width: 400px;
+    background-color: var(--greenColor);
+    border-radius: 20px;
+}
+#adcontainer img {
+    margin-top: 10px;
+    width: 450px;
+    height: 450px;
+    margin-left: -20px;
+} 
+
+.ad-right {
+    flex: 0.6;
+    display: block;
+}
+
+nav .list-group-items{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-left: 55px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 100px;
+}
+li:hover {
+    color: black;
+    font-weight: bold;
+    transform: scale(1);
+}
+li a:hover {
+    color: black;
+}
+
+.show-case {
+    display: flex;
+    margin-left: 30px;
+    gap: 60px;
+}
+
+.show-case-left {
+    flex: 0.5;
+    display: block;
+    margin-top: 7px;
+    position: relative;
+    top: -20px;
+}
+
+.show-case-right {
+    flex: 0.5;
+    display: block;
+    margin-top: 35px;
+}
+
+
+#all {
+    width: 65px;
+    height: 25px;
+    border-radius: 200px;
+    background-color: var(--boxColor);
+}
+
+#order {
+    height: 30px;
+    width: 150px;
+    background-color: var(--redColor);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* styling ad-boxes */
+
+.box {
+    height: 155px;
+    width: 200px;
+    background-color: var(--boxColor);
+    margin-top: 23px;
+    border-radius: 20px;
+}
+
+.box img {
+    height: 80px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.box h6 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.box p {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    color:  #ccc;
+    margin-top: -5px;
+}
